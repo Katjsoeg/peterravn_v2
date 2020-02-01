@@ -4,7 +4,7 @@ body {
 
 * {
 	box-sizing: border-box;
-	font-family: 'Quicksand', sans-serif;
+	font-family: 'open sans', sans-serif;
 	color: #4a4a4a;
 }
 
@@ -25,6 +25,7 @@ h2 {
 	text-align: center;
 	text-transform: uppercase;
 }
+
 
 /*----------header/menu---------*/
 .topnav {
@@ -129,6 +130,13 @@ a.fa-instagram:before {
 
 .velkommen {
 	text-align: center;
+
+}
+
+.ravnlogo {
+	background-image: url(ravnnn.png);
+	width: 100%;
+	margin: 0 auto;
 }
 
 
