@@ -27,6 +27,7 @@ h2 {
 }
 
 
+
 /*----------header/menu---------*/
 .topnav {
 	overflow: hidden;
@@ -69,6 +70,8 @@ h2 {
 .topnav .icon {
 	display: none;
 }
+
+
 
 /*----------footer---------*/
 
@@ -133,10 +136,10 @@ a.fa-instagram:before {
 
 }
 
-.ravnlogo {
-	background-image: url(ravnnn.png);
-	width: 100%;
-	margin: 0 auto;
+#logo img {
+	height: 100px;
+	width: auto;
+
 }
 
 
@@ -296,6 +299,13 @@ a.fa-instagram:before {
 
 }
 
+#logo img {
+	height: 100px;
+	width: auto;
+
+}
+
+
 /*-------Desktop skærme-----*/
 
 @media screen and (min-width: 700px) {
@@ -327,5 +337,11 @@ a.fa-instagram:before {
 		margin-left: 1vw;
 		margin-right: 1vw;
 	}
+
+}
+
+#logo img {
+	height: 100px;
+	width: auto;
 
 }
