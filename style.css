@@ -26,6 +26,13 @@ h2 {
 	text-transform: uppercase;
 }
 
+#logo img {
+	height: 25vh;
+	width: auto;
+	margin-left: 65vh;
+
+
+}
 
 
 /*----------header/menu---------*/
@@ -43,7 +50,7 @@ h2 {
 .topnav a:first-child {
 	background-image: url(logo2.png);
 	background-size: cover;
-	width: 16vw;
+	width: 26vw;
 	height: 9vw;
 	margin: 1vw;
 }
@@ -136,12 +143,6 @@ a.fa-instagram:before {
 
 }
 
-#logo img {
-	height: 100px;
-	width: auto;
-
-}
-
 
 #forside_content h2 {
 	margin: 1vw;
@@ -229,8 +230,7 @@ a.fa-instagram:before {
 
 /*-------Mobile-----*/
 
-
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 1024px) {
 	.topnav a:not(:first-child) {
 		display: none;
 	}
@@ -297,13 +297,98 @@ a.fa-instagram:before {
 		height: 300px;
 	}
 
+	#logo img {
+		height: 10vh;
+		width: auto;
+		margin-left: 0;
+
+
+	}
+
+
 }
 
-#logo img {
-	height: 100px;
-	width: auto;
+
+
+@media screen and (max-width: 360px) {
+	.topnav a:not(:first-child) {
+		display: none;
+	}
+
+	.topnav a.icon {
+		float: right;
+		display: block;
+		font-size: 22px;
+	}
+
+
+	.topnav.responsive {
+		position: relative;
+	}
+
+	.topnav.responsive .icon {
+		position: absolute;
+		right: 0;
+		top: 0;
+	}
+
+	.topnav.responsive a {
+		float: none;
+		display: block;
+		text-align: center;
+	}
+
+	.billede_peter {
+		margin: auto;
+		width: 220px;
+		height: 300px;
+
+	}
+
+	#sectionwrapper_kant,
+	.sectionwrapper p {
+		justify-content: center;
+		text-align: center;
+
+	}
+
+
+	.kant_frame iframe {
+		height: 45vw;
+		width: 90vw;
+	}
+
+	article {
+		box-shadow: inherit;
+	}
+
+	#splash {
+		background-image: url(http://katjsoeg.dk/kea/2_sem_eksamen/designwp/splash.JPG);
+		width: 100%;
+		height: 58vh;
+		margin: 0;
+		background-attachment: inherit;
+		background-size: cover;
+		background-position: center;
+	}
+
+	#video_content iframe {
+		width: 650px;
+		height: 300px;
+	}
+
+	#logo img {
+		height: 10vh;
+		width: auto;
+		margin-left: 5vw;
+
+
+	}
+
 
 }
+
+
 
 
 /*-------Desktop skærme-----*/
@@ -338,10 +423,12 @@ a.fa-instagram:before {
 		margin-right: 1vw;
 	}
 
-}
+	#logo img {
+		height: 10vh;
+		width: auto;
+		margin-left: 20vw;
 
-#logo img {
-	height: 100px;
-	width: auto;
+
+	}
 
 }
