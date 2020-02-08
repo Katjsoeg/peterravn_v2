@@ -26,13 +26,6 @@ h2 {
 	text-transform: uppercase;
 }
 
-#logo img {
-	height: 25vh;
-	width: auto;
-	margin-left: 65vh;
-
-
-}
 
 
 /*----------header/menu---------*/
@@ -300,7 +293,7 @@ a.fa-instagram:before {
 	#logo img {
 		height: 10vh;
 		width: auto;
-		margin-left: 0;
+
 
 
 	}
@@ -380,7 +373,7 @@ a.fa-instagram:before {
 	#logo img {
 		height: 10vh;
 		width: auto;
-		margin-left: 5vw;
+		margin-left: 10vw;
 
 
 	}
@@ -427,6 +420,46 @@ a.fa-instagram:before {
 		height: 10vh;
 		width: auto;
 		margin-left: 20vw;
+
+
+	}
+
+}
+
+@media screen and (min-width: 1000px) {
+	.topnav a:first-child {
+		background-image: url(logo2.png);
+		background-size: cover;
+		position: relative;
+		width: 7.2vw;
+		height: 4vw;
+	}
+
+	.topnav a:not(:first-child) {
+		padding-top: 2vw;
+		float: right;
+		position: relative;
+	}
+
+	.kontakt {
+		flex-basis: 200px;
+	}
+
+	a.fa-facebook,
+	a.fa-instagram {
+		color: white;
+		text-decoration: none;
+		font-size: 2vw;
+		height: 1vw;
+		width: 1vw;
+		margin-left: 1vw;
+		margin-right: 1vw;
+	}
+
+	#logo img {
+		height: 10vh;
+		width: auto;
+		margin-left: 35vw;
 
 
 	}
