@@ -26,6 +26,17 @@ h2 {
 	text-transform: uppercase;
 }
 
+.pr_content {
+	background-color: rgba(192, 198, 163, 0.10);
+	padding: 2vh;
+}
+
+#pr_img img {
+	height: 10vh;
+	width: auto;
+}
+
+
 
 
 /*----------header/menu---------*/
@@ -294,8 +305,11 @@ a.fa-instagram:before {
 		height: 10vh;
 		width: auto;
 
+	}
 
-
+	#pr_img img {
+		height: 10vh;
+		width: auto;
 	}
 
 
@@ -378,6 +392,14 @@ a.fa-instagram:before {
 
 	}
 
+	#pr_img img {
+		height: 20vh;
+		width: auto;
+		margin-left: 5vh;
+	}
+
+
+
 
 }
 
@@ -416,13 +438,12 @@ a.fa-instagram:before {
 		margin-right: 1vw;
 	}
 
-	#logo img {
+	#pr_img img {
 		height: 10vh;
 		width: auto;
-		margin-left: 20vw;
-
-
 	}
+
+
 
 }
 
@@ -463,5 +484,12 @@ a.fa-instagram:before {
 
 
 	}
+
+	#pr_img img {
+		height: 20vh;
+		width: auto;
+		margin-left: 15vh;
+	}
+
 
 }
